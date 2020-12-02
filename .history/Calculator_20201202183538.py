@@ -52,12 +52,12 @@ elif operator == 4:
     result = division(x, y)
     print(x, "/", y, "=", division(x, y))
 
-if result > 0 and result < 101:
+if result > 0 or result < 101:
     if result == 100:
         print("Spot on!")
     elif result == 50:
         print("Fifty!")
-    elif result < 50:
+    elif result > 0 and result < 50:
         print("Less then fifty")
     elif result > 50 and result < 100:
         print("Almost a hundred")

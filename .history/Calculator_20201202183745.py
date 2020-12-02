@@ -57,7 +57,7 @@ if result > 0 and result < 101:
         print("Spot on!")
     elif result == 50:
         print("Fifty!")
-    elif result < 50:
+    elif result > 0 and result < 50:
         print("Less then fifty")
     elif result > 50 and result < 100:
         print("Almost a hundred")
